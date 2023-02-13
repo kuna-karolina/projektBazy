@@ -1,0 +1,55 @@
+
+CREATE TABLE IF NOT EXISTS ADDRESS(
+
+id SERIAL PRIMARY KEY,
+building_nr INT,
+apartment_nr INT,
+postal_code INT,
+city VARCHAR(100)
+
+)
+
+CREATE TABLE IF NOT EXISTS APARTMENT(
+
+id SERIAL PRIMARY KEY,
+area DECIMAL,
+creation_year INT,
+last_renovation_year INT,
+building_type VARCHAR(100),
+heating_type VARCHAR(20),
+furnished BOOLEAN,
+rooms_count INT,
+offer_id INT,
+address_id INT,
+CONSTRAINT "fk_offer" FOREIGN KEY ("offer_id")
+REFERENCES OFFER("id"),
+CONSTRAINT "fk_address" FOREIGN KEY ("address_id")
+REFERENCES ADDRESS("id")
+)
+
+CREATE TABLE IF NOT EXISTS OFFER(
+
+id SERIAL PRIMARY KEY,
+creation_date DATE,
+negotiable BOOLEAN,
+description VARCHAR(300),
+agency_fee DECIMAL,
+title VARCHAR(200)
+
+)
+
+
+CREATE TABLE IF NOT EXISTS OWNER(
+id SERIAL PRIMARY KEY,
+name VARCHAR(50),
+surname VARCHAR(50),
+phone_number VARCHAR(9),
+email_address varchar(100),
+company_name varchar(100),
+address_id INT,
+apartment_id INT,
+CONSTRAINT "fk_address" FOREIGN KEY ("address_id")
+REFERENCES ADDRESS("id"),
+CONSTRAINT "fk_apartment" FOREIGN KEY ("apartment_id")
+REFERENCES APARTMENT("id")
+)
