@@ -21,15 +21,26 @@ public class Apartment {
     @Column(name = "area")
     private double area;
     @Column(name = "creation_year")
-    private int creationYear;
+    private String creationYear;
     @Column(name = "lastRenovationYear")
-    private int lastRenovationYear;
+    private String lastRenovationYear;
     @Column(name = "building_type")
     private String buildingType;
     @Column(name = "is_furnished")
     private boolean isFurnished;
+
+    public Apartment(long id, double area, String creationYear, String lastRenovationYear, String buildingType, boolean isFurnished, String roomsCount) {
+        this.id = id;
+        this.area = area;
+        this.creationYear = creationYear;
+        this.lastRenovationYear = lastRenovationYear;
+        this.buildingType = buildingType;
+        this.isFurnished = isFurnished;
+        this.roomsCount = roomsCount;
+    }
+
     @Column(name = "rooms_count")
-    private int roomsCount;
+    private String roomsCount;
 
     @OneToOne
     @JoinColumn(name = "address_id")

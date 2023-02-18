@@ -25,21 +25,25 @@ public class Owner {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private long id;
     @Column
-    private Date creationDate;
+    private String name;
     @Column
-    private double price;
+    private String surname;
     @Column
-    private String status;
+    private String phoneNumber;
     @Column
-    private boolean negotiable;
+    private String emailAddress;
+
+    public Owner(long id, String name, String surname, String phoneNumber, String emailAddress, String companyName) {
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.phoneNumber = phoneNumber;
+        this.emailAddress = emailAddress;
+        this.companyName = companyName;
+    }
+
     @Column
-    private Date modificationDate;
-    @Column
-    private String descritpion;
-    @Column
-    private double agencyFee;
-    @Column
-    private String title;
+    private String companyName;
 
     @OneToOne
     @JoinColumn(name="address_id")

@@ -1,12 +1,11 @@
 package com.example.bazyprojekt.model.sql;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
+@AllArgsConstructor
 @NoArgsConstructor
+@ToString
 @Setter
 @Getter
 @Table(name="Address")
@@ -21,11 +20,11 @@ public class Address {
     @Column(name="city")
     private String city;
     @Column(name = "building_number")
-    private int buildingNr;
+    private String buildingNr;
     @Column(name="postal_code")
-    private int postalCode;
+    private String postalCode;
     @Column(name="apartment_number")
-    private int apartmentNr;
+    private String apartmentNr;
 
     @OneToOne(mappedBy = "address")
     private Owner owner;
@@ -33,4 +32,12 @@ public class Address {
     @OneToOne(mappedBy = "address")
     private Apartment apartment;
 
+    public Address(int id, String streetName, String city, String buildingNr, String postalCode, String apartmentNr) {
+        this.id = id;
+        this.streetName = streetName;
+        this.city = city;
+        this.buildingNr = buildingNr;
+        this.postalCode = postalCode;
+        this.apartmentNr = apartmentNr;
+    }
 }

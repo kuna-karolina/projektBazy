@@ -2,9 +2,9 @@
 CREATE TABLE IF NOT EXISTS ADDRESS(
 
 id SERIAL PRIMARY KEY,
-building_nr INT,
-apartment_nr INT,
-postal_code INT,
+building_nr VARCHAR(20),
+apartment_nr VARCHAR(20),
+postal_code VARCHAR(20),
 city VARCHAR(100)
 
 )
@@ -13,12 +13,12 @@ CREATE TABLE IF NOT EXISTS APARTMENT(
 
 id SERIAL PRIMARY KEY,
 area DECIMAL,
-creation_year INT,
-last_renovation_year INT,
+creation_year VARCHAR(4),
+last_renovation_year VARCHAR(4),
 building_type VARCHAR(100),
 heating_type VARCHAR(20),
 furnished BOOLEAN,
-rooms_count INT,
+rooms_count VARCHAR(2),
 offer_id INT,
 address_id INT,
 CONSTRAINT "fk_offer" FOREIGN KEY ("offer_id")
