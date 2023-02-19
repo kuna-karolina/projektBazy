@@ -1,0 +1,1001 @@
+id,creationDate,negotiable,description,agencyFee,title
+1,29/01/2023,false,local,89,non-volatile
+2,15/01/2023,true,Decentralized,5,interactive
+3,16/11/2022,true,system engine,59,demand-driven
+4,12/05/2022,true,firmware,25,orchestration
+5,04/06/2022,true,conglomeration,1,explicit
+6,20/02/2022,true,actuating,9,motivating
+7,16/03/2022,true,5th generation,59,circuit
+8,27/11/2022,true,non-volatile,39,Organic
+9,26/05/2022,true,Synergized,4,utilisation
+10,30/08/2022,false,Synergized,41,projection
+11,17/10/2022,false,Ameliorated,87,Automated
+12,09/06/2022,false,optimal,98,bottom-line
+13,15/04/2022,true,middleware,58,toolset
+14,06/05/2022,true,24 hour,20,internet solution
+15,29/08/2022,true,Visionary,24,Re-contextualized
+16,29/03/2022,true,Down-sized,23,Advanced
+17,19/05/2022,true,concept,16,multi-tasking
+18,13/09/2022,true,context-sensitive,74,real-time
+19,12/04/2022,false,moratorium,9,24 hour
+20,23/01/2023,true,matrices,93,user-facing
+21,03/12/2022,false,paradigm,42,client-driven
+22,24/05/2022,false,even-keeled,5,object-oriented
+23,20/05/2022,true,archive,18,Re-engineered
+24,26/07/2022,true,Multi-channelled,26,Optimized
+25,05/09/2022,false,clear-thinking,7,Configurable
+26,25/07/2022,false,productivity,94,toolset
+27,02/02/2023,true,encompassing,30,even-keeled
+28,28/05/2022,true,holistic,63,data-warehouse
+29,27/12/2022,true,Monitored,13,hybrid
+30,21/04/2022,false,moratorium,37,Multi-layered
+31,26/03/2022,true,Focused,64,Profit-focused
+32,02/02/2023,false,User-centric,49,projection
+33,19/01/2023,false,concept,57,Re-engineered
+34,21/06/2022,false,bandwidth-monitored,11,Enterprise-wide
+35,17/04/2022,true,transitional,97,holistic
+36,06/04/2022,false,local area network,34,logistical
+37,23/03/2022,true,model,8,Innovative
+38,10/01/2023,false,Extended,67,Digitized
+39,28/10/2022,true,Decentralized,95,Graphic Interface
+40,13/06/2022,false,fresh-thinking,37,Persevering
+41,09/11/2022,true,knowledge user,37,interactive
+42,11/05/2022,true,Open-source,94,Fundamental
+43,26/11/2022,false,Open-source,70,matrices
+44,25/08/2022,false,Vision-oriented,80,Progressive
+45,11/09/2022,true,Organized,72,Inverse
+46,29/05/2022,false,Graphical User Interface,97,human-resource
+47,14/05/2022,false,Profit-focused,16,incremental
+48,24/11/2022,false,website,23,success
+49,23/12/2022,false,service-desk,5,Open-architected
+50,12/05/2022,false,help-desk,12,global
+51,07/07/2022,true,product,49,6th generation
+52,04/06/2022,true,portal,2,Advanced
+53,08/04/2022,true,synergy,100,parallelism
+54,09/08/2022,false,info-mediaries,13,groupware
+55,19/09/2022,true,Inverse,79,migration
+56,25/04/2022,true,focus group,17,background
+57,05/06/2022,true,eco-centric,50,matrices
+58,02/10/2022,true,neural-net,74,groupware
+59,06/01/2023,true,Stand-alone,68,website
+60,31/08/2022,true,Virtual,20,hub
+61,22/09/2022,false,support,1,framework
+62,10/12/2022,true,database,52,matrices
+63,02/08/2022,true,Extended,72,portal
+64,01/01/2023,false,algorithm,99,Customizable
+65,27/10/2022,false,Balanced,37,algorithm
+66,20/09/2022,true,data-warehouse,50,matrix
+67,30/09/2022,false,eco-centric,88,moderator
+68,21/09/2022,true,Robust,4,high-level
+69,14/12/2022,false,forecast,31,synergy
+70,25/10/2022,true,neutral,96,interface
+71,06/06/2022,true,coherent,63,synergy
+72,08/06/2022,false,Profound,37,24/7
+73,25/09/2022,true,bottom-line,3,Programmable
+74,28/08/2022,false,website,90,motivating
+75,19/01/2023,true,analyzing,70,Diverse
+76,26/12/2022,true,context-sensitive,82,system engine
+77,03/01/2023,true,methodical,67,systematic
+78,26/09/2022,false,Self-enabling,1,bi-directional
+79,29/05/2022,true,Assimilated,38,interface
+80,09/01/2023,true,local,77,algorithm
+81,13/10/2022,true,definition,71,scalable
+82,21/04/2022,true,Polarised,81,secondary
+83,05/03/2022,false,Configurable,75,heuristic
+84,13/04/2022,false,discrete,75,encoding
+85,01/10/2022,true,local area network,33,Polarised
+86,13/12/2022,true,zero defect,6,regional
+87,13/12/2022,true,uniform,20,Business-focused
+88,19/11/2022,true,Optional,58,Cross-platform
+89,15/11/2022,false,process improvement,98,methodical
+90,17/04/2022,false,software,84,impactful
+91,15/11/2022,false,software,51,Synergistic
+92,05/09/2022,false,website,33,definition
+93,05/09/2022,true,bi-directional,42,Function-based
+94,16/02/2023,false,impactful,80,24/7
+95,26/05/2022,false,interface,37,well-modulated
+96,27/09/2022,false,dedicated,17,Customizable
+97,03/08/2022,false,Cross-platform,15,neural-net
+98,17/03/2022,false,full-range,69,uniform
+99,18/12/2022,false,support,25,dynamic
+100,30/06/2022,false,Exclusive,82,user-facing
+101,14/09/2022,false,hybrid,31,well-modulated
+102,05/11/2022,false,Universal,36,policy
+103,08/12/2022,true,Enhanced,81,leading edge
+104,27/12/2022,true,Focused,38,maximized
+105,21/02/2022,false,Ergonomic,33,Business-focused
+106,17/11/2022,false,initiative,39,Versatile
+107,22/04/2022,true,Automated,66,dedicated
+108,18/02/2023,true,emulation,29,homogeneous
+109,08/06/2022,true,framework,7,internet solution
+110,09/12/2022,true,groupware,95,bottom-line
+111,22/05/2022,false,Quality-focused,37,Object-based
+112,16/01/2023,true,local,26,scalable
+113,27/12/2022,true,radical,20,Function-based
+114,25/04/2022,true,fault-tolerant,14,high-level
+115,23/05/2022,false,forecast,21,Upgradable
+116,11/05/2022,true,Organized,35,solution
+117,25/11/2022,false,function,73,access
+118,25/08/2022,true,tertiary,61,strategy
+119,28/01/2023,false,open system,96,Cross-platform
+120,22/07/2022,true,Synergistic,28,fault-tolerant
+121,22/10/2022,false,systemic,7,collaboration
+122,15/10/2022,true,product,24,mobile
+123,28/09/2022,true,discrete,12,focus group
+124,28/11/2022,true,time-frame,45,knowledge base
+125,03/02/2023,false,executive,62,multi-tasking
+126,07/08/2022,true,encoding,80,Mandatory
+127,27/04/2022,true,policy,88,interactive
+128,20/05/2022,true,Digitized,90,Vision-oriented
+129,02/02/2023,true,Multi-lateral,3,Future-proofed
+130,30/10/2022,false,client-server,42,secured line
+131,16/12/2022,false,real-time,42,demand-driven
+132,21/04/2022,false,strategy,27,Profound
+133,09/10/2022,true,multimedia,4,Re-contextualized
+134,30/12/2022,false,Front-line,85,24 hour
+135,23/04/2022,false,composite,48,intermediate
+136,12/02/2023,false,archive,71,value-added
+137,24/10/2022,true,Proactive,23,systemic
+138,23/10/2022,false,reciprocal,57,homogeneous
+139,29/11/2022,true,6th generation,11,Vision-oriented
+140,10/03/2022,true,3rd generation,89,asynchronous
+141,16/02/2023,true,24 hour,78,open architecture
+142,11/08/2022,true,fault-tolerant,2,local
+143,20/08/2022,false,scalable,18,even-keeled
+144,28/11/2022,false,cohesive,46,grid-enabled
+145,24/04/2022,false,user-facing,71,Progressive
+146,28/06/2022,false,Distributed,79,Managed
+147,15/03/2022,true,firmware,81,Reactive
+148,02/01/2023,true,methodical,83,bifurcated
+149,13/01/2023,false,functionalities,12,Visionary
+150,02/10/2022,false,Customer-focused,24,mobile
+151,19/02/2022,false,Seamless,82,benchmark
+152,07/03/2022,true,contingency,40,algorithm
+153,17/12/2022,false,24 hour,55,website
+154,10/09/2022,true,fault-tolerant,27,intranet
+155,06/10/2022,false,matrix,44,info-mediaries
+156,09/10/2022,true,asynchronous,7,3rd generation
+157,07/05/2022,false,hierarchy,72,utilisation
+158,17/06/2022,true,leverage,77,multimedia
+159,10/01/2023,true,optimal,94,Fundamental
+160,01/03/2022,true,grid-enabled,39,local area network
+161,07/08/2022,true,attitude-oriented,72,projection
+162,06/03/2022,false,intangible,61,multi-tasking
+163,14/08/2022,false,groupware,48,hardware
+164,29/09/2022,false,Polarised,38,bottom-line
+165,12/05/2022,false,heuristic,99,Profit-focused
+166,19/11/2022,false,Polarised,84,concept
+167,07/02/2023,false,initiative,6,hierarchy
+168,20/03/2022,false,24 hour,24,24 hour
+169,16/05/2022,false,Fully-configurable,65,User-friendly
+170,15/02/2023,true,budgetary management,94,Persistent
+171,12/08/2022,true,tangible,76,encryption
+172,30/07/2022,true,structure,55,Multi-layered
+173,07/03/2022,true,Digitized,3,secured line
+174,17/04/2022,false,didactic,56,stable
+175,09/08/2022,false,Customizable,13,website
+176,07/09/2022,false,Streamlined,13,fresh-thinking
+177,12/01/2023,true,local,26,moratorium
+178,12/12/2022,false,Synchronised,78,Profound
+179,27/10/2022,true,Multi-layered,89,archive
+180,12/09/2022,true,core,47,Ergonomic
+181,19/08/2022,true,6th generation,35,pricing structure
+182,13/10/2022,true,5th generation,32,framework
+183,04/12/2022,false,intermediate,44,solution
+184,12/08/2022,false,toolset,93,hybrid
+185,16/04/2022,true,client-driven,70,Enhanced
+186,10/02/2023,false,optimal,98,Mandatory
+187,17/07/2022,true,heuristic,60,Organic
+188,16/03/2022,false,mobile,95,heuristic
+189,25/04/2022,false,optimal,83,open architecture
+190,04/09/2022,false,conglomeration,61,process improvement
+191,30/04/2022,true,interactive,81,pricing structure
+192,01/10/2022,false,task-force,56,middleware
+193,10/06/2022,false,Virtual,51,core
+194,04/10/2022,false,toolset,40,secondary
+195,09/12/2022,true,Public-key,42,moderator
+196,05/12/2022,false,analyzing,94,Customizable
+197,05/08/2022,true,array,11,Function-based
+198,06/10/2022,true,Reduced,19,internet solution
+199,05/01/2023,true,standardization,43,Self-enabling
+200,22/06/2022,false,Advanced,29,non-volatile
+201,10/12/2022,true,Synchronised,78,Cloned
+202,16/11/2022,false,standardization,85,Function-based
+203,18/10/2022,false,database,43,challenge
+204,25/01/2023,true,service-desk,77,homogeneous
+205,27/08/2022,true,process improvement,44,alliance
+206,22/06/2022,true,human-resource,43,24/7
+207,14/12/2022,true,system engine,58,Grass-roots
+208,10/09/2022,false,time-frame,16,Implemented
+209,22/04/2022,false,zero administration,40,composite
+210,09/06/2022,true,intermediate,86,5th generation
+211,01/09/2022,false,infrastructure,80,migration
+212,29/12/2022,false,methodology,52,attitude-oriented
+213,18/12/2022,true,Enterprise-wide,31,Streamlined
+214,17/10/2022,true,focus group,39,help-desk
+215,17/10/2022,false,definition,24,service-desk
+216,10/01/2023,true,Profound,64,pricing structure
+217,12/02/2023,false,database,42,impactful
+218,28/08/2022,false,24/7,20,challenge
+219,16/04/2022,false,Inverse,21,impactful
+220,10/01/2023,true,human-resource,83,support
+221,10/10/2022,true,Grass-roots,77,multimedia
+222,13/02/2023,false,toolset,40,hierarchy
+223,02/03/2022,true,Inverse,73,budgetary management
+224,21/07/2022,false,Sharable,25,regional
+225,08/06/2022,true,attitude-oriented,40,static
+226,12/04/2022,true,content-based,64,bifurcated
+227,25/01/2023,true,analyzer,69,challenge
+228,20/10/2022,true,Open-architected,7,info-mediaries
+229,05/09/2022,false,neutral,37,client-driven
+230,16/03/2022,true,website,47,help-desk
+231,13/05/2022,false,conglomeration,1,User-friendly
+232,09/04/2022,true,Customer-focused,23,database
+233,13/05/2022,false,Reactive,39,Reactive
+234,19/07/2022,true,Pre-emptive,99,throughput
+235,26/02/2022,true,Mandatory,77,Cross-platform
+236,06/01/2023,false,algorithm,80,intermediate
+237,02/01/2023,true,attitude,54,Front-line
+238,24/10/2022,true,Synergized,7,multimedia
+239,12/11/2022,true,non-volatile,49,contingency
+240,08/06/2022,false,orchestration,74,Expanded
+241,02/10/2022,false,solution,95,Business-focused
+242,12/03/2022,false,incremental,74,complexity
+243,26/04/2022,true,optimal,44,Persevering
+244,14/05/2022,true,fresh-thinking,4,full-range
+245,16/07/2022,true,Public-key,65,approach
+246,12/07/2022,true,Cross-group,51,benchmark
+247,29/11/2022,true,Synergized,19,Intuitive
+248,11/08/2022,true,interactive,99,Decentralized
+249,21/07/2022,false,initiative,18,Versatile
+250,31/10/2022,false,extranet,36,Seamless
+251,11/05/2022,false,software,53,hub
+252,16/08/2022,true,model,89,4th generation
+253,11/03/2022,false,Pre-emptive,80,empowering
+254,07/09/2022,false,Centralized,100,hub
+255,23/12/2022,false,adapter,90,bi-directional
+256,20/10/2022,true,Networked,52,incremental
+257,16/07/2022,false,Multi-lateral,25,pricing structure
+258,15/04/2022,false,Innovative,1,attitude
+259,04/08/2022,false,composite,82,Fundamental
+260,22/02/2022,false,analyzing,68,Exclusive
+261,29/11/2022,false,coherent,2,modular
+262,31/08/2022,true,contextually-based,62,24 hour
+263,14/10/2022,false,productivity,51,Polarised
+264,04/07/2022,true,Monitored,45,Vision-oriented
+265,27/02/2022,false,artificial intelligence,91,frame
+266,16/10/2022,false,logistical,9,didactic
+267,03/04/2022,false,interface,21,multimedia
+268,27/09/2022,true,Sharable,73,clear-thinking
+269,09/04/2022,false,benchmark,56,Balanced
+270,28/03/2022,false,website,11,superstructure
+271,13/07/2022,true,data-warehouse,4,protocol
+272,07/01/2023,false,6th generation,99,client-driven
+273,22/04/2022,false,Persistent,9,Synchronised
+274,12/07/2022,false,artificial intelligence,11,composite
+275,09/07/2022,false,Devolved,50,Configurable
+276,03/08/2022,false,bandwidth-monitored,56,tangible
+277,06/10/2022,true,interface,62,discrete
+278,30/09/2022,true,Persistent,70,emulation
+279,19/10/2022,false,24 hour,46,forecast
+280,30/07/2022,false,Horizontal,41,monitoring
+281,28/06/2022,false,info-mediaries,85,Distributed
+282,17/10/2022,false,open system,31,Total
+283,15/11/2022,false,algorithm,70,discrete
+284,21/12/2022,true,model,51,well-modulated
+285,16/07/2022,false,Public-key,24,interactive
+286,13/10/2022,false,solution-oriented,51,impactful
+287,27/12/2022,false,Phased,47,Triple-buffered
+288,24/05/2022,true,approach,17,solution
+289,03/09/2022,true,attitude-oriented,55,Front-line
+290,10/05/2022,true,framework,14,Team-oriented
+291,30/11/2022,false,Integrated,33,Expanded
+292,11/06/2022,false,Progressive,91,system-worthy
+293,07/08/2022,true,tertiary,16,clear-thinking
+294,30/12/2022,true,middleware,58,stable
+295,23/10/2022,false,Centralized,60,migration
+296,19/02/2022,true,Function-based,15,Open-architected
+297,12/11/2022,false,discrete,36,middleware
+298,15/09/2022,true,human-resource,5,challenge
+299,20/12/2022,true,policy,89,Proactive
+300,17/05/2022,false,Grass-roots,14,hybrid
+301,18/05/2022,true,uniform,53,background
+302,09/05/2022,true,Multi-channelled,77,reciprocal
+303,26/02/2022,true,24/7,32,Phased
+304,07/09/2022,false,Open-architected,35,heuristic
+305,23/10/2022,false,explicit,81,zero defect
+306,14/07/2022,false,emulation,80,architecture
+307,14/01/2023,true,concept,32,Robust
+308,15/12/2022,false,Seamless,63,matrix
+309,12/09/2022,false,infrastructure,56,database
+310,03/11/2022,false,info-mediaries,37,regional
+311,01/02/2023,false,multi-state,52,content-based
+312,15/10/2022,false,Secured,29,intangible
+313,25/01/2023,true,data-warehouse,18,Open-source
+314,14/10/2022,false,background,32,database
+315,21/10/2022,true,global,92,knowledge base
+316,14/11/2022,true,mobile,1,Quality-focused
+317,30/11/2022,false,strategy,39,mobile
+318,09/04/2022,true,knowledge user,9,even-keeled
+319,30/04/2022,false,Multi-lateral,31,hybrid
+320,17/07/2022,true,conglomeration,90,budgetary management
+321,18/03/2022,false,analyzing,71,success
+322,02/10/2022,false,Face to face,18,client-driven
+323,09/05/2022,true,bottom-line,91,throughput
+324,30/11/2022,false,Cloned,68,Versatile
+325,26/05/2022,true,frame,20,Upgradable
+326,28/01/2023,true,Re-contextualized,75,Operative
+327,13/09/2022,true,encoding,31,contingency
+328,01/12/2022,true,clear-thinking,95,Quality-focused
+329,14/02/2023,false,archive,40,Focused
+330,27/11/2022,false,intangible,43,6th generation
+331,12/01/2023,false,neural-net,10,migration
+332,10/06/2022,false,asymmetric,63,interactive
+333,31/10/2022,false,clear-thinking,78,matrices
+334,16/07/2022,false,architecture,2,instruction set
+335,11/06/2022,true,solution-oriented,33,exuding
+336,06/09/2022,false,adapter,33,adapter
+337,21/12/2022,true,toolset,40,regional
+338,23/08/2022,true,application,32,infrastructure
+339,05/12/2022,true,task-force,75,executive
+340,16/05/2022,false,value-added,49,collaboration
+341,21/08/2022,false,extranet,70,Progressive
+342,08/08/2022,false,Function-based,57,database
+343,03/06/2022,true,middleware,10,holistic
+344,29/04/2022,true,interface,81,function
+345,17/11/2022,false,intangible,63,Object-based
+346,08/10/2022,false,instruction set,1,Phased
+347,09/11/2022,true,motivating,67,Secured
+348,21/09/2022,false,Vision-oriented,66,archive
+349,04/04/2022,true,discrete,78,info-mediaries
+350,26/11/2022,false,attitude,34,model
+351,24/03/2022,false,Customer-focused,46,leverage
+352,24/01/2023,false,toolset,58,next generation
+353,12/01/2023,false,directional,10,Reduced
+354,11/05/2022,false,Self-enabling,38,implementation
+355,27/10/2022,true,impactful,80,protocol
+356,02/06/2022,true,encoding,47,local
+357,14/03/2022,true,zero tolerance,1,secondary
+358,22/12/2022,false,challenge,46,regional
+359,30/07/2022,true,neural-net,7,functionalities
+360,16/01/2023,true,groupware,14,protocol
+361,19/08/2022,true,extranet,46,workforce
+362,23/10/2022,false,Assimilated,80,hub
+363,06/04/2022,false,optimizing,49,function
+364,12/10/2022,true,context-sensitive,45,Face to face
+365,22/01/2023,false,monitoring,99,encompassing
+366,29/04/2022,false,Intuitive,31,background
+367,28/08/2022,false,disintermediate,5,Triple-buffered
+368,22/11/2022,true,Synergistic,5,Object-based
+369,28/03/2022,false,composite,49,system engine
+370,06/07/2022,true,Fully-configurable,32,info-mediaries
+371,28/09/2022,true,Multi-layered,10,dynamic
+372,23/05/2022,false,high-level,79,Team-oriented
+373,17/10/2022,true,composite,23,website
+374,24/11/2022,false,Diverse,73,Synergistic
+375,20/01/2023,false,flexibility,22,neural-net
+376,03/12/2022,true,website,24,Implemented
+377,16/10/2022,false,Reactive,49,24/7
+378,24/03/2022,true,Re-engineered,20,zero tolerance
+379,04/03/2022,false,alliance,67,Open-source
+380,26/10/2022,true,Optional,23,Digitized
+381,05/01/2023,false,capacity,1,Re-engineered
+382,12/03/2022,true,Synergistic,49,Cross-platform
+383,29/09/2022,true,Digitized,93,incremental
+384,10/11/2022,true,analyzing,16,strategy
+385,28/06/2022,false,protocol,35,attitude-oriented
+386,18/12/2022,true,Distributed,76,Advanced
+387,09/06/2022,false,Synergistic,9,adapter
+388,16/05/2022,false,core,86,Progressive
+389,22/03/2022,true,Multi-tiered,55,Assimilated
+390,31/01/2023,true,leverage,44,moratorium
+391,18/02/2023,false,groupware,56,Switchable
+392,29/09/2022,true,project,38,explicit
+393,28/05/2022,false,Team-oriented,40,Enterprise-wide
+394,13/06/2022,false,bottom-line,61,explicit
+395,08/01/2023,true,throughput,77,solution-oriented
+396,13/09/2022,false,dynamic,20,Stand-alone
+397,26/01/2023,false,success,85,Enterprise-wide
+398,03/08/2022,false,hierarchy,95,challenge
+399,18/03/2022,true,interface,19,installation
+400,25/05/2022,true,Compatible,97,client-server
+401,04/07/2022,false,internet solution,60,5th generation
+402,19/11/2022,false,service-desk,91,Object-based
+403,05/09/2022,false,fault-tolerant,40,knowledge base
+404,01/03/2022,true,capability,36,mission-critical
+405,21/11/2022,true,Proactive,81,toolset
+406,19/08/2022,false,adapter,56,application
+407,07/09/2022,false,Switchable,17,local area network
+408,01/04/2022,false,Managed,9,Advanced
+409,20/03/2022,false,intranet,19,Persevering
+410,20/08/2022,false,holistic,94,User-friendly
+411,20/03/2022,false,discrete,59,maximized
+412,31/10/2022,true,strategy,29,software
+413,06/04/2022,true,leverage,19,secured line
+414,19/01/2023,true,Multi-channelled,64,Triple-buffered
+415,19/05/2022,false,projection,23,data-warehouse
+416,02/11/2022,false,model,30,multimedia
+417,26/01/2023,true,algorithm,82,transitional
+418,29/03/2022,false,help-desk,35,flexibility
+419,17/11/2022,true,Object-based,8,solution
+420,26/02/2022,false,toolset,3,benchmark
+421,14/03/2022,false,access,67,Self-enabling
+422,26/02/2022,false,process improvement,75,real-time
+423,25/03/2022,true,matrix,68,application
+424,11/11/2022,false,hub,21,Polarised
+425,29/05/2022,false,radical,83,circuit
+426,03/04/2022,true,24/7,48,function
+427,25/03/2022,false,Upgradable,23,adapter
+428,06/06/2022,true,Self-enabling,33,Programmable
+429,30/07/2022,true,bottom-line,57,strategy
+430,30/04/2022,false,leading edge,26,Monitored
+431,29/10/2022,false,Future-proofed,61,client-server
+432,04/02/2023,false,non-volatile,32,web-enabled
+433,23/08/2022,false,architecture,83,complexity
+434,13/06/2022,false,modular,61,exuding
+435,01/09/2022,true,De-engineered,50,demand-driven
+436,27/03/2022,false,empowering,95,mobile
+437,18/07/2022,true,instruction set,51,full-range
+438,28/01/2023,true,dedicated,70,encryption
+439,20/06/2022,false,Stand-alone,70,Grass-roots
+440,02/09/2022,true,project,58,Enhanced
+441,19/01/2023,true,Polarised,44,full-range
+442,05/07/2022,true,leading edge,13,Front-line
+443,09/04/2022,false,foreground,45,project
+444,08/01/2023,false,leverage,2,hub
+445,13/02/2023,true,challenge,51,Self-enabling
+446,19/12/2022,false,definition,30,4th generation
+447,28/01/2023,false,Expanded,49,internet solution
+448,03/05/2022,false,Proactive,65,Quality-focused
+449,23/03/2022,false,Self-enabling,9,challenge
+450,12/04/2022,true,success,83,static
+451,18/03/2022,false,De-engineered,90,Reverse-engineered
+452,05/07/2022,false,high-level,89,Advanced
+453,15/12/2022,false,intangible,91,core
+454,14/02/2023,true,modular,5,Expanded
+455,15/02/2023,true,Stand-alone,69,framework
+456,06/10/2022,true,transitional,81,paradigm
+457,23/05/2022,false,fresh-thinking,15,Triple-buffered
+458,30/10/2022,false,user-facing,46,radical
+459,16/11/2022,false,multi-state,76,Configurable
+460,30/04/2022,false,Grass-roots,12,Configurable
+461,24/08/2022,true,Customer-focused,100,Compatible
+462,23/02/2022,true,infrastructure,58,Grass-roots
+463,08/08/2022,false,hybrid,87,portal
+464,10/04/2022,true,4th generation,40,transitional
+465,23/10/2022,false,Exclusive,68,Synergistic
+466,08/12/2022,false,Integrated,22,5th generation
+467,24/10/2022,true,Innovative,17,Configurable
+468,07/05/2022,true,Cloned,7,regional
+469,11/07/2022,false,user-facing,23,attitude
+470,20/08/2022,false,Graphical User Interface,91,logistical
+471,09/04/2022,false,static,93,installation
+472,21/08/2022,false,migration,97,heuristic
+473,30/06/2022,true,composite,47,Business-focused
+474,06/09/2022,true,artificial intelligence,73,actuating
+475,05/08/2022,true,Automated,50,Compatible
+476,02/06/2022,true,leverage,39,Operative
+477,31/01/2023,true,frame,21,needs-based
+478,24/08/2022,false,interactive,29,emulation
+479,21/10/2022,true,composite,13,analyzer
+480,10/06/2022,true,Inverse,67,impactful
+481,29/04/2022,true,foreground,3,website
+482,11/05/2022,false,Networked,90,functionalities
+483,27/02/2022,false,encoding,16,non-volatile
+484,07/06/2022,false,attitude-oriented,23,local area network
+485,01/07/2022,true,mission-critical,70,User-friendly
+486,03/12/2022,true,responsive,61,even-keeled
+487,03/01/2023,false,Programmable,52,leverage
+488,08/06/2022,false,De-engineered,55,Implemented
+489,03/09/2022,true,model,7,customer loyalty
+490,15/01/2023,true,needs-based,43,4th generation
+491,24/11/2022,true,Progressive,72,Optimized
+492,02/06/2022,false,groupware,51,encoding
+493,14/02/2023,true,firmware,86,portal
+494,09/10/2022,false,Extended,38,orchestration
+495,02/04/2022,true,hub,44,process improvement
+496,17/03/2022,false,Open-architected,65,Synergized
+497,19/11/2022,false,hub,57,Seamless
+498,28/07/2022,true,24 hour,87,access
+499,19/07/2022,true,conglomeration,3,Object-based
+500,03/11/2022,true,Open-source,54,interactive
+501,15/04/2022,true,human-resource,87,Visionary
+502,29/01/2023,true,adapter,51,incremental
+503,01/03/2022,false,Multi-channelled,65,application
+504,15/08/2022,true,Multi-layered,98,6th generation
+505,09/04/2022,true,24/7,84,Graphical User Interface
+506,07/01/2023,false,standardization,93,coherent
+507,03/12/2022,false,national,87,context-sensitive
+508,12/08/2022,false,hierarchy,58,Secured
+509,04/06/2022,false,data-warehouse,60,Persistent
+510,07/11/2022,false,needs-based,1,explicit
+511,23/03/2022,true,success,13,optimizing
+512,23/08/2022,true,Optimized,43,Re-contextualized
+513,28/01/2023,false,needs-based,61,transitional
+514,01/01/2023,true,Robust,62,product
+515,01/12/2022,true,matrices,14,protocol
+516,09/04/2022,false,bandwidth-monitored,59,Managed
+517,10/01/2023,false,Devolved,95,Reverse-engineered
+518,21/05/2022,false,projection,99,clear-thinking
+519,31/08/2022,true,Synergistic,6,methodology
+520,11/09/2022,true,Secured,28,Open-source
+521,30/10/2022,true,Business-focused,76,Synergistic
+522,08/08/2022,false,Inverse,85,contingency
+523,11/11/2022,true,support,42,fault-tolerant
+524,18/05/2022,true,empowering,25,Focused
+525,10/04/2022,true,info-mediaries,13,tertiary
+526,21/02/2022,false,optimal,66,fresh-thinking
+527,22/04/2022,true,Synergistic,75,Customizable
+528,15/12/2022,false,ability,20,global
+529,06/05/2022,true,dedicated,7,directional
+530,19/12/2022,true,Progressive,82,Secured
+531,20/09/2022,true,Versatile,10,Cloned
+532,30/07/2022,true,policy,80,benchmark
+533,27/09/2022,false,Quality-focused,4,motivating
+534,29/10/2022,false,Digitized,15,radical
+535,23/12/2022,true,benchmark,47,executive
+536,01/02/2023,false,exuding,49,analyzer
+537,19/09/2022,true,multi-tasking,37,Ameliorated
+538,20/08/2022,false,Quality-focused,26,tertiary
+539,28/07/2022,true,Synergistic,84,needs-based
+540,15/04/2022,true,even-keeled,93,utilisation
+541,16/09/2022,false,Decentralized,52,array
+542,22/08/2022,true,maximized,72,Object-based
+543,22/06/2022,true,Operative,89,portal
+544,18/01/2023,false,attitude,2,Re-contextualized
+545,25/03/2022,true,synergy,96,middleware
+546,25/03/2022,true,actuating,63,Re-engineered
+547,04/06/2022,true,extranet,78,context-sensitive
+548,17/03/2022,true,forecast,70,contingency
+549,14/06/2022,true,database,89,Polarised
+550,17/10/2022,false,Up-sized,43,Implemented
+551,12/05/2022,true,knowledge user,53,orchestration
+552,08/12/2022,false,interactive,28,intranet
+553,07/11/2022,false,radical,17,methodology
+554,20/02/2022,false,Centralized,12,Organic
+555,04/08/2022,false,Progressive,62,context-sensitive
+556,10/02/2023,true,application,78,emulation
+557,25/10/2022,true,initiative,61,Enhanced
+558,04/01/2023,true,core,60,Optimized
+559,28/09/2022,false,Switchable,76,system-worthy
+560,29/06/2022,false,modular,22,Grass-roots
+561,14/11/2022,false,zero administration,70,internet solution
+562,08/03/2022,false,empowering,74,heuristic
+563,10/10/2022,false,optimal,29,Sharable
+564,17/12/2022,true,help-desk,61,encryption
+565,27/10/2022,false,analyzing,46,protocol
+566,14/11/2022,true,mobile,88,framework
+567,01/08/2022,true,next generation,44,Virtual
+568,11/09/2022,true,3rd generation,95,firmware
+569,11/02/2023,false,radical,89,model
+570,10/11/2022,true,Organic,61,human-resource
+571,18/06/2022,true,Function-based,100,support
+572,19/03/2022,false,Monitored,89,Seamless
+573,26/04/2022,true,discrete,5,emulation
+574,05/03/2022,false,fresh-thinking,1,Optimized
+575,19/09/2022,false,emulation,37,info-mediaries
+576,21/10/2022,true,help-desk,33,hierarchy
+577,11/07/2022,true,challenge,80,zero administration
+578,17/10/2022,false,dedicated,30,exuding
+579,23/04/2022,true,regional,79,Innovative
+580,15/01/2023,true,logistical,90,Reduced
+581,15/08/2022,true,task-force,44,systemic
+582,12/05/2022,true,optimizing,35,needs-based
+583,05/11/2022,false,Managed,62,contextually-based
+584,05/01/2023,true,bi-directional,49,matrices
+585,11/09/2022,true,Robust,89,Graphic Interface
+586,17/04/2022,true,analyzing,72,Enhanced
+587,05/11/2022,true,Inverse,56,value-added
+588,30/10/2022,false,Cloned,42,exuding
+589,25/07/2022,false,Enterprise-wide,77,Visionary
+590,20/05/2022,true,intranet,19,benchmark
+591,04/11/2022,false,actuating,25,Customizable
+592,09/02/2023,true,static,19,artificial intelligence
+593,30/12/2022,false,optimizing,11,utilisation
+594,04/02/2023,false,knowledge user,17,website
+595,19/01/2023,false,executive,60,tangible
+596,23/12/2022,false,orchestration,63,system engine
+597,05/04/2022,true,Vision-oriented,79,reciprocal
+598,29/05/2022,false,Visionary,56,User-centric
+599,19/12/2022,false,paradigm,29,interface
+600,03/01/2023,false,matrices,100,paradigm
+601,09/07/2022,false,productivity,66,structure
+602,02/10/2022,true,motivating,10,Business-focused
+603,28/05/2022,true,Persevering,7,Multi-channelled
+604,05/10/2022,true,Object-based,52,instruction set
+605,01/12/2022,true,composite,91,didactic
+606,18/05/2022,true,Synchronised,61,Mandatory
+607,19/05/2022,false,customer loyalty,40,Optional
+608,28/08/2022,false,Polarised,37,24 hour
+609,13/11/2022,false,Graphic Interface,1,Fully-configurable
+610,29/12/2022,false,Synergized,52,emulation
+611,18/11/2022,true,Multi-tiered,44,Total
+612,08/12/2022,true,hub,19,bottom-line
+613,11/03/2022,true,groupware,68,matrices
+614,05/03/2022,true,executive,30,heuristic
+615,03/10/2022,false,Visionary,32,next generation
+616,21/03/2022,true,optimizing,19,dynamic
+617,27/09/2022,true,knowledge base,19,maximized
+618,10/11/2022,true,strategy,74,heuristic
+619,28/01/2023,true,parallelism,43,zero defect
+620,24/08/2022,true,zero tolerance,86,value-added
+621,06/03/2022,true,benchmark,70,circuit
+622,21/03/2022,false,Re-engineered,70,Reactive
+623,27/05/2022,true,Distributed,63,Visionary
+624,24/10/2022,true,clear-thinking,24,static
+625,02/07/2022,true,concept,6,Balanced
+626,06/03/2022,true,definition,94,Re-contextualized
+627,07/03/2022,false,content-based,24,Customizable
+628,17/11/2022,true,explicit,24,Triple-buffered
+629,16/05/2022,true,solution-oriented,75,Versatile
+630,20/03/2022,true,web-enabled,21,application
+631,15/02/2023,false,website,8,dedicated
+632,05/04/2022,true,encoding,17,local area network
+633,02/05/2022,false,utilisation,88,process improvement
+634,21/03/2022,false,Focused,54,implementation
+635,26/10/2022,false,4th generation,77,Fundamental
+636,19/07/2022,false,Monitored,40,Profit-focused
+637,02/09/2022,false,User-friendly,61,dynamic
+638,11/01/2023,true,standardization,49,neutral
+639,17/12/2022,false,Managed,48,asymmetric
+640,17/04/2022,false,optimizing,3,Reduced
+641,01/09/2022,true,standardization,32,analyzer
+642,10/06/2022,false,approach,83,solution-oriented
+643,13/02/2023,true,installation,50,hybrid
+644,18/09/2022,true,mission-critical,67,Up-sized
+645,18/06/2022,false,Optional,52,transitional
+646,21/08/2022,false,Customizable,36,Vision-oriented
+647,16/05/2022,false,local area network,48,approach
+648,23/04/2022,false,architecture,25,firmware
+649,24/02/2022,true,instruction set,92,didactic
+650,18/08/2022,false,Horizontal,18,bi-directional
+651,11/01/2023,true,open system,68,Centralized
+652,26/04/2022,false,system engine,57,Innovative
+653,14/08/2022,false,Balanced,48,Progressive
+654,14/12/2022,false,paradigm,8,4th generation
+655,14/12/2022,true,eco-centric,61,Devolved
+656,25/04/2022,false,hub,87,dynamic
+657,09/03/2022,false,firmware,6,Digitized
+658,13/03/2022,false,secondary,4,explicit
+659,17/03/2022,true,project,56,open system
+660,29/06/2022,true,Virtual,17,Adaptive
+661,08/11/2022,true,local,22,Advanced
+662,08/10/2022,true,explicit,27,secondary
+663,02/03/2022,false,multi-tasking,100,systemic
+664,29/07/2022,true,Exclusive,39,5th generation
+665,06/03/2022,false,Programmable,81,open architecture
+666,06/07/2022,false,value-added,4,knowledge user
+667,07/09/2022,false,empowering,80,hierarchy
+668,07/06/2022,false,standardization,76,database
+669,26/12/2022,false,client-server,23,archive
+670,07/09/2022,true,leverage,63,fault-tolerant
+671,11/12/2022,true,approach,71,upward-trending
+672,08/06/2022,false,radical,75,non-volatile
+673,25/08/2022,true,encompassing,8,success
+674,01/03/2022,true,national,81,6th generation
+675,17/08/2022,true,Business-focused,6,instruction set
+676,26/03/2022,false,local area network,51,alliance
+677,24/11/2022,false,Inverse,19,moderator
+678,17/03/2022,false,bi-directional,11,hardware
+679,16/07/2022,false,Switchable,80,context-sensitive
+680,18/04/2022,false,dynamic,87,Reverse-engineered
+681,24/11/2022,true,Function-based,45,client-driven
+682,04/06/2022,true,superstructure,92,hierarchy
+683,21/11/2022,false,tangible,68,foreground
+684,19/01/2023,true,Future-proofed,73,Robust
+685,26/07/2022,false,forecast,78,Visionary
+686,05/02/2023,false,didactic,60,Managed
+687,02/10/2022,true,disintermediate,42,high-level
+688,29/11/2022,true,Pre-emptive,93,24 hour
+689,27/07/2022,false,Fully-configurable,73,disintermediate
+690,27/09/2022,true,Centralized,10,Mandatory
+691,03/04/2022,false,fault-tolerant,21,tertiary
+692,21/02/2022,false,Managed,50,optimizing
+693,01/10/2022,true,software,96,Triple-buffered
+694,24/04/2022,false,Sharable,1,real-time
+695,27/06/2022,false,secondary,3,Assimilated
+696,16/04/2022,true,context-sensitive,71,3rd generation
+697,27/05/2022,false,Multi-layered,72,policy
+698,24/06/2022,false,heuristic,4,reciprocal
+699,20/04/2022,true,service-desk,73,Team-oriented
+700,17/08/2022,true,parallelism,43,Fundamental
+701,30/05/2022,false,artificial intelligence,41,bandwidth-monitored
+702,21/06/2022,false,Persevering,36,pricing structure
+703,17/11/2022,true,Focused,76,5th generation
+704,16/08/2022,true,Quality-focused,68,User-centric
+705,11/03/2022,false,matrix,91,Total
+706,08/11/2022,false,human-resource,100,standardization
+707,20/06/2022,false,Profound,62,Focused
+708,29/09/2022,true,grid-enabled,11,optimal
+709,11/12/2022,true,Synergistic,43,systemic
+710,27/09/2022,false,instruction set,23,object-oriented
+711,23/03/2022,true,intangible,49,stable
+712,24/04/2022,false,utilisation,80,analyzing
+713,06/11/2022,true,Progressive,92,matrices
+714,05/03/2022,true,Inverse,81,systemic
+715,22/02/2022,false,Configurable,22,object-oriented
+716,21/03/2022,false,ability,24,customer loyalty
+717,07/07/2022,true,impactful,50,encompassing
+718,01/12/2022,true,Universal,62,Front-line
+719,10/10/2022,true,matrices,85,Seamless
+720,27/12/2022,true,De-engineered,72,tangible
+721,25/12/2022,false,Re-engineered,86,alliance
+722,08/07/2022,false,website,26,data-warehouse
+723,31/05/2022,true,multi-tasking,96,complexity
+724,23/01/2023,false,Centralized,93,Reactive
+725,26/02/2022,true,Up-sized,30,mission-critical
+726,05/07/2022,true,migration,23,Switchable
+727,27/01/2023,true,strategy,84,Sharable
+728,17/09/2022,false,Multi-tiered,18,local
+729,28/12/2022,false,firmware,47,neural-net
+730,04/06/2022,true,Customer-focused,26,web-enabled
+731,16/08/2022,true,Universal,94,Cloned
+732,10/12/2022,true,3rd generation,78,Profit-focused
+733,12/12/2022,false,leverage,7,Right-sized
+734,17/12/2022,true,Team-oriented,5,definition
+735,29/09/2022,true,system-worthy,84,utilisation
+736,17/07/2022,false,Enhanced,12,artificial intelligence
+737,11/04/2022,false,interactive,85,benchmark
+738,06/06/2022,true,actuating,78,Synergized
+739,24/10/2022,false,paradigm,73,ability
+740,14/03/2022,true,foreground,96,Organic
+741,16/02/2023,false,Self-enabling,17,complexity
+742,25/09/2022,false,Digitized,20,impactful
+743,24/08/2022,false,benchmark,18,Total
+744,29/11/2022,false,firmware,53,ability
+745,15/02/2023,false,Future-proofed,2,collaboration
+746,15/07/2022,false,collaboration,15,functionalities
+747,30/12/2022,true,zero tolerance,92,Down-sized
+748,08/07/2022,true,well-modulated,58,Reverse-engineered
+749,23/03/2022,true,Monitored,35,bandwidth-monitored
+750,25/10/2022,true,transitional,51,access
+751,15/12/2022,true,Virtual,64,Configurable
+752,08/11/2022,true,complexity,62,Streamlined
+753,15/09/2022,true,budgetary management,80,complexity
+754,10/10/2022,false,heuristic,13,methodical
+755,14/12/2022,true,tertiary,52,Focused
+756,20/10/2022,true,global,59,eco-centric
+757,17/09/2022,true,non-volatile,18,budgetary management
+758,06/09/2022,true,paradigm,20,Operative
+759,13/05/2022,false,Phased,45,grid-enabled
+760,18/12/2022,false,Self-enabling,49,impactful
+761,04/07/2022,false,moratorium,20,matrix
+762,26/10/2022,true,internet solution,24,scalable
+763,22/01/2023,true,client-driven,34,Future-proofed
+764,16/04/2022,false,Function-based,69,Multi-layered
+765,26/04/2022,false,open architecture,36,encompassing
+766,08/06/2022,false,Secured,8,homogeneous
+767,29/09/2022,false,instruction set,10,Exclusive
+768,05/01/2023,false,well-modulated,87,emulation
+769,02/06/2022,true,system engine,55,intranet
+770,16/03/2022,true,hardware,86,initiative
+771,22/11/2022,false,archive,31,actuating
+772,17/07/2022,true,Function-based,57,portal
+773,30/01/2023,true,knowledge base,35,info-mediaries
+774,07/10/2022,true,Public-key,1,extranet
+775,13/02/2023,false,Graphical User Interface,40,hardware
+776,12/06/2022,false,motivating,57,upward-trending
+777,10/09/2022,true,optimizing,29,Enterprise-wide
+778,27/08/2022,true,uniform,45,open system
+779,28/08/2022,true,3rd generation,86,Organized
+780,26/07/2022,true,asynchronous,26,Seamless
+781,12/10/2022,true,model,58,Open-source
+782,22/04/2022,true,client-server,13,maximized
+783,15/04/2022,true,multimedia,46,budgetary management
+784,09/08/2022,false,intangible,78,task-force
+785,12/03/2022,true,fault-tolerant,2,demand-driven
+786,08/11/2022,false,empowering,57,Future-proofed
+787,20/04/2022,false,zero tolerance,98,Up-sized
+788,12/11/2022,true,5th generation,62,Polarised
+789,05/05/2022,false,upward-trending,99,bi-directional
+790,13/02/2023,true,Decentralized,91,Upgradable
+791,24/07/2022,false,demand-driven,74,Vision-oriented
+792,18/10/2022,false,Automated,87,collaboration
+793,31/07/2022,true,De-engineered,69,projection
+794,02/12/2022,true,software,91,budgetary management
+795,16/06/2022,true,Cross-group,66,support
+796,04/01/2023,true,attitude-oriented,56,Universal
+797,29/05/2022,true,Customer-focused,26,parallelism
+798,15/01/2023,true,heuristic,14,demand-driven
+799,21/09/2022,true,Balanced,65,Integrated
+800,19/02/2022,false,Right-sized,27,impactful
+801,24/08/2022,true,asymmetric,29,firmware
+802,03/06/2022,false,intangible,18,Enhanced
+803,23/04/2022,true,needs-based,43,systematic
+804,23/04/2022,false,Self-enabling,7,Optimized
+805,15/07/2022,false,core,11,Realigned
+806,27/08/2022,true,upward-trending,39,Balanced
+807,25/05/2022,false,capacity,49,frame
+808,24/01/2023,true,alliance,80,Monitored
+809,28/05/2022,true,functionalities,78,archive
+810,15/07/2022,true,dynamic,50,Triple-buffered
+811,09/06/2022,false,24/7,23,cohesive
+812,20/04/2022,true,success,72,Upgradable
+813,18/02/2023,false,secondary,87,service-desk
+814,19/09/2022,false,product,79,installation
+815,10/12/2022,true,monitoring,45,website
+816,04/04/2022,false,Diverse,58,Phased
+817,23/11/2022,false,optimizing,34,interface
+818,10/06/2022,false,capacity,98,hub
+819,23/08/2022,false,Virtual,35,system engine
+820,03/09/2022,true,motivating,37,Diverse
+821,26/07/2022,true,alliance,35,didactic
+822,13/04/2022,false,well-modulated,3,Multi-layered
+823,03/06/2022,true,matrix,1,time-frame
+824,20/08/2022,true,pricing structure,39,Intuitive
+825,07/09/2022,false,Integrated,59,Persevering
+826,18/06/2022,true,functionalities,24,Triple-buffered
+827,12/01/2023,true,budgetary management,61,matrix
+828,03/02/2023,true,Vision-oriented,50,bifurcated
+829,03/02/2023,false,intranet,49,structure
+830,22/11/2022,true,well-modulated,82,Balanced
+831,26/07/2022,false,Self-enabling,6,context-sensitive
+832,13/09/2022,false,asymmetric,96,implementation
+833,29/05/2022,false,bandwidth-monitored,76,paradigm
+834,07/07/2022,false,incremental,95,multi-tasking
+835,10/03/2022,false,internet solution,8,structure
+836,02/07/2022,false,Innovative,53,Front-line
+837,30/08/2022,false,composite,71,firmware
+838,29/05/2022,true,moderator,89,Switchable
+839,21/04/2022,false,Polarised,43,matrix
+840,18/05/2022,false,optimizing,9,task-force
+841,29/05/2022,false,paradigm,87,Cloned
+842,29/11/2022,false,encompassing,5,motivating
+843,17/11/2022,true,exuding,47,Profound
+844,05/10/2022,false,Object-based,93,challenge
+845,09/05/2022,true,attitude,30,database
+846,18/08/2022,false,protocol,44,approach
+847,23/11/2022,true,Managed,22,Re-contextualized
+848,26/04/2022,true,Expanded,79,non-volatile
+849,13/05/2022,true,installation,58,model
+850,16/04/2022,true,frame,49,dedicated
+851,07/10/2022,false,Ameliorated,3,Innovative
+852,17/07/2022,true,maximized,100,explicit
+853,07/06/2022,false,Synergized,99,hardware
+854,29/08/2022,false,Synergized,65,regional
+855,04/10/2022,false,interface,6,access
+856,23/12/2022,true,Upgradable,93,Digitized
+857,24/09/2022,false,Enhanced,7,local
+858,14/11/2022,false,product,85,bifurcated
+859,06/12/2022,true,Cloned,32,multi-state
+860,01/05/2022,false,pricing structure,62,object-oriented
+861,22/01/2023,false,didactic,61,Enterprise-wide
+862,03/06/2022,false,Business-focused,45,leading edge
+863,05/05/2022,false,methodical,53,dedicated
+864,21/08/2022,true,Synergistic,53,secured line
+865,17/04/2022,true,analyzing,90,bi-directional
+866,03/06/2022,false,service-desk,79,zero tolerance
+867,15/04/2022,true,neutral,85,secondary
+868,22/11/2022,false,migration,66,Enterprise-wide
+869,30/01/2023,false,hardware,34,toolset
+870,12/03/2022,false,mission-critical,21,Visionary
+871,14/08/2022,true,interactive,8,contingency
+872,06/03/2022,false,pricing structure,54,Object-based
+873,22/08/2022,false,stable,54,Polarised
+874,03/10/2022,true,Customer-focused,9,Synergistic
+875,18/06/2022,false,budgetary management,71,Streamlined
+876,21/07/2022,true,grid-enabled,9,benchmark
+877,29/05/2022,true,Advanced,8,responsive
+878,11/09/2022,true,Digitized,97,Organic
+879,07/10/2022,false,access,86,Compatible
+880,21/09/2022,false,Inverse,37,coherent
+881,17/09/2022,true,6th generation,80,systematic
+882,03/05/2022,false,workforce,47,clear-thinking
+883,31/10/2022,true,Implemented,25,Face to face
+884,04/01/2023,false,installation,8,core
+885,22/07/2022,true,Centralized,1,Optional
+886,16/07/2022,false,Reactive,6,attitude-oriented
+887,18/09/2022,false,Face to face,93,static
+888,28/09/2022,false,fresh-thinking,44,Multi-tiered
+889,14/08/2022,false,Proactive,65,knowledge user
+890,10/11/2022,true,infrastructure,4,support
+891,10/08/2022,true,intangible,23,neural-net
+892,22/09/2022,false,Pre-emptive,94,architecture
+893,18/12/2022,true,encoding,49,directional
+894,11/07/2022,true,maximized,16,Robust
+895,17/03/2022,false,concept,44,national
+896,16/03/2022,true,content-based,70,web-enabled
+897,05/03/2022,true,asynchronous,31,moderator
+898,23/12/2022,false,help-desk,89,local
+899,08/04/2022,true,moratorium,61,Implemented
+900,21/10/2022,false,Vision-oriented,44,support
+901,04/01/2023,true,Versatile,7,intermediate
+902,22/11/2022,true,reciprocal,36,bifurcated
+903,14/09/2022,false,Devolved,5,installation
+904,10/02/2023,true,Realigned,30,multimedia
+905,13/03/2022,false,Re-engineered,68,Extended
+906,04/01/2023,false,Organic,55,value-added
+907,01/01/2023,true,Reduced,100,Open-architected
+908,15/05/2022,true,leading edge,49,user-facing
+909,23/11/2022,false,encoding,7,contextually-based
+910,17/08/2022,false,maximized,43,Managed
+911,05/09/2022,true,Public-key,41,Devolved
+912,17/11/2022,true,middleware,40,Up-sized
+913,22/11/2022,false,secured line,93,core
+914,15/04/2022,false,dedicated,3,coherent
+915,30/10/2022,false,help-desk,36,extranet
+916,17/07/2022,true,Virtual,35,help-desk
+917,28/04/2022,false,capability,56,system engine
+918,15/02/2023,false,implementation,11,upward-trending
+919,03/08/2022,false,Progressive,95,homogeneous
+920,05/02/2023,false,Integrated,4,Cross-group
+921,26/06/2022,true,definition,3,demand-driven
+922,06/02/2023,true,function,32,solution-oriented
+923,16/08/2022,true,zero defect,21,maximized
+924,10/11/2022,false,projection,41,Multi-lateral
+925,15/05/2022,true,eco-centric,84,incremental
+926,20/06/2022,false,Stand-alone,54,Pre-emptive
+927,01/03/2022,false,definition,33,background
+928,01/03/2022,true,radical,62,Synergistic
+929,20/09/2022,true,Cross-group,14,parallelism
+930,15/11/2022,true,Fundamental,43,methodical
+931,08/06/2022,false,Distributed,65,grid-enabled
+932,03/06/2022,false,attitude,69,neutral
+933,10/05/2022,false,hybrid,49,Stand-alone
+934,07/10/2022,false,high-level,45,migration
+935,22/01/2023,false,info-mediaries,96,zero tolerance
+936,07/05/2022,true,contingency,23,array
+937,05/11/2022,false,methodical,86,well-modulated
+938,17/11/2022,false,service-desk,48,Expanded
+939,06/01/2023,true,neural-net,32,solution-oriented
+940,25/05/2022,true,needs-based,42,intermediate
+941,13/02/2023,false,encoding,52,systemic
+942,30/08/2022,false,Intuitive,16,orchestration
+943,17/06/2022,true,help-desk,94,context-sensitive
+944,19/11/2022,true,Networked,76,hardware
+945,11/04/2022,false,Team-oriented,53,Digitized
+946,01/01/2023,false,didactic,87,system-worthy
+947,13/09/2022,false,Streamlined,86,monitoring
+948,23/02/2022,true,protocol,18,Front-line
+949,23/12/2022,true,Advanced,65,middleware
+950,07/09/2022,false,orchestration,10,core
+951,26/05/2022,false,system engine,3,model
+952,02/08/2022,true,Exclusive,30,scalable
+953,09/08/2022,false,well-modulated,64,Persistent
+954,28/07/2022,false,Public-key,78,Synergistic
+955,28/03/2022,false,Ergonomic,7,moderator
+956,20/01/2023,true,Intuitive,56,website
+957,11/03/2022,false,actuating,18,cohesive
+958,08/03/2022,false,mobile,40,neutral
+959,03/05/2022,true,scalable,27,incremental
+960,05/09/2022,false,knowledge base,64,zero tolerance
+961,29/12/2022,false,product,16,encryption
+962,22/01/2023,false,De-engineered,92,clear-thinking
+963,08/09/2022,false,human-resource,52,data-warehouse
+964,08/02/2023,false,Automated,88,moratorium
+965,11/07/2022,true,instruction set,7,Optional
+966,22/03/2022,false,dedicated,4,hardware
+967,04/12/2022,true,Optional,63,bandwidth-monitored
+968,10/01/2023,true,neural-net,50,content-based
+969,31/03/2022,false,full-range,53,solution
+970,26/07/2022,false,synergy,93,architecture
+971,29/01/2023,false,next generation,48,interface
+972,23/03/2022,false,next generation,12,website
+973,11/10/2022,false,flexibility,27,structure
+974,02/03/2022,false,Balanced,36,core
+975,30/08/2022,true,tangible,20,mission-critical
+976,15/05/2022,true,customer loyalty,35,static
+977,18/04/2022,false,software,23,Function-based
+978,26/05/2022,true,local,7,Re-engineered
+979,22/09/2022,false,fault-tolerant,7,stable
+980,22/05/2022,false,policy,18,client-driven
+981,27/09/2022,false,open system,98,needs-based
+982,07/03/2022,true,open system,21,coherent
+983,02/09/2022,true,projection,81,moderator
+984,27/10/2022,false,capability,86,open architecture
+985,23/03/2022,false,analyzing,53,Programmable
+986,09/11/2022,true,solution-oriented,11,Diverse
+987,04/03/2022,true,Public-key,84,responsive
+988,17/07/2022,true,neural-net,44,flexibility
+989,29/10/2022,true,ability,90,groupware
+990,12/02/2023,true,infrastructure,54,asymmetric
+991,03/10/2022,false,leverage,81,incremental
+992,29/11/2022,true,analyzing,96,contingency
+993,08/02/2023,true,model,73,approach
+994,29/12/2022,false,model,78,definition
+995,09/12/2022,false,Exclusive,30,neutral
+996,06/05/2022,true,object-oriented,34,Multi-layered
+997,27/05/2022,true,client-driven,16,firmware
+998,16/09/2022,false,Business-focused,57,mission-critical
+999,05/10/2022,false,Intuitive,20,high-level
+1000,23/06/2022,true,Enhanced,6,knowledge user

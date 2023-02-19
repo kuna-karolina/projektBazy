@@ -3,10 +3,11 @@ package com.example.bazyprojekt.time.meters;
 import com.example.bazyprojekt.model.sql.Apartment;
 import com.example.bazyprojekt.service.ApartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
-
+@Component
 public class ApartmentTimesMeter {
 
     @Autowired
@@ -17,6 +18,9 @@ public class ApartmentTimesMeter {
     private List<Long> updateTimes = new ArrayList<>();
     private List<Apartment> apartments = new ArrayList<>();
 
+    public ApartmentTimesMeter(List<Apartment> apartments) {
+        this.apartments = apartments;
+    }
 
     public long insertApartmentsCheckTimes(){
 
@@ -43,7 +47,7 @@ public class ApartmentTimesMeter {
     public long apartmentRetrievalCalculateTimes(){
         for(Apartment apartment: apartments){
             apartmentService.findApartmentByID(apartment.getId());
-            retrivalTimes.add(apartmentService.getRetrievalTime());
+            retrivalTimes.add(apartmentService.getFindByIDTime());
         }
 
         return retrivalTimes.stream().mapToLong(Long::valueOf).sum();
@@ -64,4 +68,7 @@ public class ApartmentTimesMeter {
         return apartmentService.getRowCountTime();
     }
 
+    public void setApartments(List<Apartment> apartments) {
+        this.apartments = apartments;
+    }
 }

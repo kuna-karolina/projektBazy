@@ -3,10 +3,11 @@ package com.example.bazyprojekt.time.meters;
 import com.example.bazyprojekt.model.sql.Offer;
 import com.example.bazyprojekt.service.OfferService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
-
+@Component
 public class OfferTimesMeter {
 
     @Autowired
@@ -18,6 +19,14 @@ public class OfferTimesMeter {
     private List<Long> updateTimes = new ArrayList<>();
 
     private List<Offer> offers = new ArrayList<>();
+
+    public void setOffers(List<Offer> offers) {
+        this.offers = offers;
+    }
+
+    public OfferTimesMeter(List<Offer> offers) {
+        this.offers = offers;
+    }
 
     public long insertOfferCalculateTimes(){
 

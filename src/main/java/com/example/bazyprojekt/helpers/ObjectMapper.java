@@ -4,11 +4,13 @@ import com.example.bazyprojekt.model.sql.Address;
 import com.example.bazyprojekt.model.sql.Apartment;
 import com.example.bazyprojekt.model.sql.Offer;
 import com.example.bazyprojekt.model.sql.Owner;
+import com.example.bazyprojekt.time.meters.AddressTimesMeter;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.List;
 
 public class ObjectMapper {
@@ -30,7 +32,7 @@ public class ObjectMapper {
     }
 
 
-    public static List<Offer> convertCsvToOfferList(List<String[]> records) throws ParseException {
+    public static List<Offer> convertCsvToOfferList(List<String[]> records, List<Apartment> apartments) throws ParseException {
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         List<Offer> offers = new ArrayList<>();
         for (String[] fields : records) {
@@ -43,10 +45,15 @@ public class ObjectMapper {
             Offer offer = new Offer(id, creationDate, negotiable, description, agencyFee, title);
             offers.add(offer);
         }
+        for (int i = 0; i < offers.size(); i++) {
+            Offer offer = offers.get(i);
+            Apartment apartment = apartments.get(i);
+            offer.setApartment(apartment);
+        }
         return offers;
     }
 
-    public static List<Apartment> convertCsvToApartmentList(List<String[]> records) throws ParseException {
+    public static List<Apartment> convertCsvToApartmentList(List<String[]> records, List<Address> addresses, List<Owner> owners) throws ParseException {
         List<Apartment> apartments = new ArrayList<>();
         for (String[] fields : records) {
             int id = Integer.parseInt(fields[0]);
@@ -59,11 +66,18 @@ public class ObjectMapper {
             Apartment apartment = new Apartment(id, area, creationYear, lastRenovationYear, buildingType, isFurnished,roomsCount);
             apartments.add(apartment);
         }
+        for (int i = 0; i < apartments.size(); i++) {
+            Owner owner = owners.get(i);
+            Address address = addresses.get(i);
+            Apartment apartment = apartments.get(i);
+            apartment.setOwner(owner);
+            apartment.setAddress(address);
+        }
         return apartments;
     }
 
 
-    public static List<Owner> convertCsvToOwnerList(List<String[]> records) throws ParseException {
+    public static List<Owner> convertCsvToOwnerList(List<String[]> records, List<Address> addresses) throws ParseException {
         List<Owner> owners = new ArrayList<>();
         for (String[] fields : records) {
             int id = Integer.parseInt(fields[0]);
@@ -74,6 +88,12 @@ public class ObjectMapper {
             String companyName = fields[5];
             Owner owner = new Owner(id, name, surname, phoneNumber, emailAddress, companyName);
             owners.add(owner);
+        }
+        for (int i = 0; i < owners.size(); i++) {
+            Owner owner = owners.get(i);
+            Address address = addresses.get(i);
+            owner.setAddress(address);
+            owner.setApartments(new HashSet<>());
         }
         return owners;
     }

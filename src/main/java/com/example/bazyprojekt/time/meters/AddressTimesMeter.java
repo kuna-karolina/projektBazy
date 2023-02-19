@@ -11,10 +11,9 @@ import java.util.List;
 @Component
 public class AddressTimesMeter {
 
-    @Autowired
     AddressService addressService;
 
-    List<Address> addresses = new ArrayList<>();
+    List<Address> addresses;
 
     private List<Long> insertTimes = new ArrayList<>();
     private List<Long> deletionTimes = new ArrayList<>();
@@ -22,10 +21,17 @@ public class AddressTimesMeter {
 
     private List<Long> updateTimes = new ArrayList<>();
 
+    @Autowired
+    public AddressTimesMeter(AddressService addressService) {
+        this.addressService = addressService;
+    }
+    public void setAddresses(List<Address> addresses) {
+        this.addresses = addresses;
+    }
 
-    public long insertAddressesCheckTimes(List<Address> addressList){
+    public long insertAddressesCheckTimes(){
 
-        for(Address address: addressList){
+        for(Address address: addresses){
             addressService.saveAddress(address);
             insertTimes.add(addressService.getInsertTime());
         }
@@ -43,7 +49,6 @@ public class AddressTimesMeter {
         return deletionTimes.stream().mapToLong(Long::valueOf).sum();
 
     }
-
 
     public long addressRetrievalCalculateTimes(){
         for(Address address: addresses){

@@ -66,7 +66,7 @@ public class AddressService {
         long start = System.currentTimeMillis();
         addressRepository.findById(id);
         long end = System.currentTimeMillis();
-        findByIDTime = end - start;
+        retrievalTime = end - start;
     }
 
     public void deleteAddressByID(long id) {

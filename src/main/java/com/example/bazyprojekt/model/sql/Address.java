@@ -2,6 +2,7 @@ package com.example.bazyprojekt.model.sql;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.SQLDelete;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -26,10 +27,10 @@ public class Address {
     @Column(name="apartment_number")
     private String apartmentNr;
 
-    @OneToOne(mappedBy = "address")
+    @OneToOne(mappedBy = "address", cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
     private Owner owner;
 
-    @OneToOne(mappedBy = "address")
+    @OneToOne(mappedBy = "address", cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
     private Apartment apartment;
 
     public Address(int id, String streetName, String city, String buildingNr, String postalCode, String apartmentNr) {
