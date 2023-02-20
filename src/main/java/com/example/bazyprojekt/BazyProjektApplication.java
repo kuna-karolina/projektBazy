@@ -1,7 +1,7 @@
 package com.example.bazyprojekt;
 
 import com.example.bazyprojekt.helpers.CsvReader;
-import com.example.bazyprojekt.helpers.ObjectMapper;
+import com.example.bazyprojekt.helpers.CsvObjectMapper;
 import com.example.bazyprojekt.model.sql.Address;
 import com.example.bazyprojekt.model.sql.Apartment;
 import com.example.bazyprojekt.model.sql.Offer;
@@ -14,7 +14,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.text.ParseException;
 import java.util.List;
 
@@ -22,16 +22,15 @@ import java.util.List;
 public class BazyProjektApplication {
 
 
-    public static void main(String[] args) throws FileNotFoundException, ParseException {
+    public static void main(String[] args) throws IOException, ParseException {
 
 
         ApplicationContext app  = SpringApplication.run(BazyProjektApplication.class, args);
-
+        String basePath = "src/main/java/com/example/bazyprojekt";
 
         // ADDRESS
-
-        List<String[]> data = CsvReader.readCsv("C:\\Users\\user\\IdeaProjects\\bazyProjekt\\src\\main\\java\\com\\example\\bazyprojekt\\csv\\address.csv");
-        List<Address> addresses = ObjectMapper.convertCsvToAddressList(data);
+        List<String[]> data = CsvReader.readCsv(basePath + "/csv/address.csv");
+        List<Address> addresses = CsvObjectMapper.convertCsvToAddressList(data);
         AddressTimesMeter addressTimesMeter = app.getBean(AddressTimesMeter.class);
         addressTimesMeter.setAddresses(addresses);
         long insertTime = addressTimesMeter.insertAddressesCheckTimes();
@@ -44,8 +43,8 @@ public class BazyProjektApplication {
 
        //OWNER
 
-        List<String[]> ownerCSV = CsvReader.readCsv("C:\\Users\\user\\IdeaProjects\\bazyProjekt\\src\\main\\java\\com\\example\\bazyprojekt\\csv\\owner.csv");
-        List<Owner> owners = ObjectMapper.convertCsvToOwnerList(ownerCSV,addresses);
+        List<String[]> ownerCSV = CsvReader.readCsv(basePath + "/csv/owner.csv");
+        List<Owner> owners = CsvObjectMapper.convertCsvToOwnerList(ownerCSV,addresses);
         OwnerTimesMeter ownerTimesMeter = app.getBean(OwnerTimesMeter.class);
 
         ownerTimesMeter.setOwners(owners);
@@ -58,8 +57,8 @@ public class BazyProjektApplication {
 
         // APARTMENT
 
-        List<String[]> apartmentsCSV = CsvReader.readCsv("C:\\Users\\user\\IdeaProjects\\bazyProjekt\\src\\main\\java\\com\\example\\bazyprojekt\\csv\\apartment.csv");
-        List<Apartment> apartments = ObjectMapper.convertCsvToApartmentList(apartmentsCSV,addresses,owners);
+        List<String[]> apartmentsCSV = CsvReader.readCsv(basePath + "/csv/apartment.csv");
+        List<Apartment> apartments = CsvObjectMapper.convertCsvToApartmentList(apartmentsCSV,addresses,owners);
         ApartmentTimesMeter apartmentTimesMeter = app.getBean(ApartmentTimesMeter.class);
 
         apartmentTimesMeter.setApartments(apartments);
@@ -72,8 +71,8 @@ public class BazyProjektApplication {
 
         //OFFER
 
-        List<String[]> offersCSV = CsvReader.readCsv("C:\\Users\\user\\IdeaProjects\\bazyProjekt\\src\\main\\java\\com\\example\\bazyprojekt\\csv\\offer.csv");
-        List<Offer> offers = ObjectMapper.convertCsvToOfferList(offersCSV,apartments);
+        List<String[]> offersCSV = CsvReader.readCsv(basePath + "/csv/offer.csv");
+        List<Offer> offers = CsvObjectMapper.convertCsvToOfferList(offersCSV,apartments);
 
         OfferTimesMeter offerTimesMeter = app.getBean(OfferTimesMeter.class);
         offerTimesMeter.setOffers(offers);
@@ -86,27 +85,27 @@ public class BazyProjektApplication {
 
 
         // UPDATES
-        List<String[]> updatedAddresses = CsvReader.readCsv("C:\\Users\\user\\IdeaProjects\\bazyProjekt\\src\\main\\java\\com\\example\\bazyprojekt\\csv\\updated_address.csv");
-        addresses = ObjectMapper.convertCsvToAddressList(updatedAddresses);
+        List<String[]> updatedAddresses = CsvReader.readCsv(basePath + "/csv/updated_address.csv");
+        addresses = CsvObjectMapper.convertCsvToAddressList(updatedAddresses);
         addressTimesMeter.setAddresses(addresses);
         long updateTime = addressTimesMeter.addressUpdateCalculateTimes();
         System.out.println("Address update time:" + updateTime);
 
-        List<String[]> updatedOwners = CsvReader.readCsv("C:\\Users\\user\\IdeaProjects\\bazyProjekt\\src\\main\\java\\com\\example\\bazyprojekt\\csv\\updated_owners.csv");
-        owners = ObjectMapper.convertCsvToOwnerList(updatedOwners,addresses);
+        List<String[]> updatedOwners = CsvReader.readCsv(basePath + "/csv/updated_owners.csv");
+        owners = CsvObjectMapper.convertCsvToOwnerList(updatedOwners,addresses);
         ownerTimesMeter.setOwners(owners);
         updateTime = ownerTimesMeter.ownerUpdateCalculateTimes();
         System.out.println("Owner update time:" + updateTime);
 
-        List<String[]> updatedApartments = CsvReader.readCsv("C:\\Users\\user\\IdeaProjects\\bazyProjekt\\src\\main\\java\\com\\example\\bazyprojekt\\csv\\updated_apartments.csv");
-        apartments = ObjectMapper.convertCsvToApartmentList(updatedApartments,addresses,owners);
+        List<String[]> updatedApartments = CsvReader.readCsv(basePath + "/csv/updated_apartments.csv");
+        apartments = CsvObjectMapper.convertCsvToApartmentList(updatedApartments,addresses,owners);
         apartmentTimesMeter.setApartments(apartments);
         updateTime = addressTimesMeter.addressUpdateCalculateTimes();
         System.out.println("Apartment update time:" + updateTime);
 
 
-        List<String[]> updatedOffers = CsvReader.readCsv("C:\\Users\\user\\IdeaProjects\\bazyProjekt\\src\\main\\java\\com\\example\\bazyprojekt\\csv\\updated_offers.csv");
-        offers = ObjectMapper.convertCsvToOfferList(updatedOffers,apartments);
+        List<String[]> updatedOffers = CsvReader.readCsv(basePath + "/csv/updated_offers.csv");
+        offers = CsvObjectMapper.convertCsvToOfferList(updatedOffers,apartments);
         offerTimesMeter.setOffers(offers);
         updateTime = offerTimesMeter.offerUpdateCalculateTimes();
         System.out.println("Offer update time:" + updateTime);

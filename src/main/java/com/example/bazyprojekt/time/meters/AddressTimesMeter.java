@@ -11,26 +11,16 @@ import java.util.List;
 @Component
 public class AddressTimesMeter {
 
-    AddressService addressService;
-
-    List<Address> addresses;
-
-    private List<Long> insertTimes = new ArrayList<>();
-    private List<Long> deletionTimes = new ArrayList<>();
-    private List<Long> retrivalTimes = new ArrayList<>();
-
-    private List<Long> updateTimes = new ArrayList<>();
+    private final AddressService addressService;
+    private List<Address> addresses;
 
     @Autowired
     public AddressTimesMeter(AddressService addressService) {
         this.addressService = addressService;
     }
-    public void setAddresses(List<Address> addresses) {
-        this.addresses = addresses;
-    }
 
     public long insertAddressesCheckTimes(){
-
+        List<Long> insertTimes = new ArrayList<>();
         for(Address address: addresses){
             addressService.saveAddress(address);
             insertTimes.add(addressService.getInsertTime());
@@ -41,6 +31,7 @@ public class AddressTimesMeter {
     }
 
     public long addressDeletionTimesCalculate(){
+        List<Long> deletionTimes = new ArrayList<>();
         for(Address address: addresses){
             addressService.deleteAddress(address);
             deletionTimes.add(addressService.getDeletionTime());
@@ -51,6 +42,7 @@ public class AddressTimesMeter {
     }
 
     public long addressRetrievalCalculateTimes(){
+        List<Long> retrivalTimes = new ArrayList<>();
         for(Address address: addresses){
             addressService.findAddressByID(address.getId());
             retrivalTimes.add(addressService.getRetrievalTime());
@@ -60,7 +52,7 @@ public class AddressTimesMeter {
     }
 
     public long addressUpdateCalculateTimes(){
-
+        List<Long> updateTimes = new ArrayList<>();
         for(Address address: addresses){
             addressService.updateAddress(address);
             updateTimes.add(addressService.getUpdateTime());
@@ -73,4 +65,9 @@ public class AddressTimesMeter {
         addressService.countRows();
         return addressService.getRowCountTime();
     }
+
+    public void setAddresses(List<Address> addresses) {
+        this.addresses = addresses;
+    }
+
 }

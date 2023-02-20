@@ -1,8 +1,6 @@
 package com.example.bazyprojekt.repository;
 
-import com.example.bazyprojekt.model.sql.Offer;
 import com.example.bazyprojekt.model.sql.Owner;
-import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
